@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text('Bottom Navigation Bar'),
         centerTitle: true,
+        backgroundColor: Colors.black,
       ),
       body: IndexedStack(
         index: currentIndex,
@@ -71,7 +72,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.black,
+        // backgroundColor: Color(
+        // 0x44aaaaff), // transparent, you could use 0x44aaaaff to make it slightly less transparent with a blue hue.
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white70,
         iconSize: 40,

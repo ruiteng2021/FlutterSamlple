@@ -32,6 +32,7 @@ class _HomeState extends State<Home> {
               children: <Widget>[
                 FlatButton.icon(
                   onPressed: () async {
+                   async {
                     dynamic result =
                         await Navigator.pushNamed(context, '/location');
                     setState(() {

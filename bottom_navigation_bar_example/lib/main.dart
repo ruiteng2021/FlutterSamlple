@@ -71,15 +71,12 @@ class _MyHomePageState extends State<MyHomePage> {
         children: screens,
       ),
       bottomNavigationBar: BottomNavigationBar(
-<<<<<<< HEAD
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.black,
+        // backgroundColor: Colors.black,
         // backgroundColor: Color(
         // 0x44aaaaff), // transparent, you could use 0x44aaaaff to make it slightly less transparent with a blue hue.
-=======
         // type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.blue,
->>>>>>> 90f44cc4b0d5ba40ea1147dc2755eb71fec3d39a
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white70,
         // iconSize: 40,
